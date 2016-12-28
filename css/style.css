@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background: #e6e6e6;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 750px;
+}
+
+#info {
+	text-align: center;
+}
+
+#info h1 {
+	font-size: 28px;
+	margin: 30px 0 10px 0;
+}
+
+#info p {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+#info ul {
+	display: inline-block;
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+#info li {
+	float: left;
+	padding-left: 5px;
+}
+
+#info li:nth-child(1):after,
+#info li:nth-child(2):after,
+#info li:nth-child(3):after {
+	content: " ||";
+}
+
+#info ul a {
+	color: black;
+	text-decoration: none;
+}
+
+#soundholder {
+	display: none;
+	text-align: center;
+}
+
+p.date {
+	float: right;
+	margin-bottom: 10px;
+}
+
+#review {
+	background: white;
+	border: solid 1px black;
+	border-radius: 4px;
+	color: black;
+	clear: both;
+	font-size: 0.9em;
+	padding: 10px;
+	position: relative;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+	-moz-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+	-ms-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+	-o-box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+	box-shadow: 0 6px 9px -8px hsla(0,0%,0%,.5);
+}
+
+p.review {
+	color: black;
+}
+
+#review:after {
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid black;
+	bottom: -7px;
+	content: "";
+	left: 30px;
+	position: absolute;
+}
+
+#game-title p {
+	padding: 10px 0 25px 0;
+}
